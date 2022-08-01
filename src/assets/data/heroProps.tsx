@@ -18,10 +18,10 @@ export const heroProps: HeroPropsData = {
   },
   slack: {
     header: 'Join the Conversation',
-    body: 'Zarf is on the K8’s slack. Join our project channels for the latests news, updates, and information on Zarf.',
+    body: 'Zarf is on the K8’s slack. Join our product channel #Zarf for the latests news, updates, and information.',
     navLink: {
       text: 'Join Slack Now',
-      url: 'https://slack.k8s.io/',
+      url: 'https://kubernetes.slack.com/archives/C03B6BJAUJ3',
       target: '_blank',
       rel: 'noopener noreferrer',
     },
