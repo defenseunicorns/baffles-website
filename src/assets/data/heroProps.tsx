@@ -5,7 +5,6 @@ import { HeroProps } from '../../components/Hero/Hero';
 import ZarfEdge from '../../assets/png/zarf-edge.png';
 import { namedLinks } from './navLinks';
 import React from 'react';
-import Link from '@mui/material/Link/Link';
 
 interface HeroPropsData {
   [key: string]: HeroProps;
@@ -19,19 +18,7 @@ export const heroProps: HeroPropsData = {
   },
   slack: {
     header: 'Join the Conversation',
-    body: (
-      <>
-        Zarf is on the K8’s slack. Join our product channel{' '}
-        <Link
-          href="https://kubernetes.slack.com/archives/C03B6BJAUJ3"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          #zarf
-        </Link>{' '}
-        for the latests news, updates, and information.
-      </>
-    ),
+    body: 'Zarf is on the K8’s slack. Join our product channel #Zarf for the latests news, updates, and information.',
     navLink: {
       text: 'Join Slack Now',
       url: 'https://kubernetes.slack.com/archives/C03B6BJAUJ3',

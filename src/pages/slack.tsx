@@ -27,29 +27,15 @@ function Slack(): ReactElement {
               target="_blank"
               rel="noopener noreferrer"
             >
-              https://slack.k8s.io
+              K8&apos;s Slack
             </Link>
+            .
           </Typography>
           <Typography variant="body1">
             2. Sign in or create a slack account
           </Typography>
           <Typography variant="body1">
-            3. Find us on the following channels{' '}
-            <Link
-              href={heroProps.slack.navLink?.url}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              #zarf
-            </Link>
-            ,{' '}
-            <Link
-              href="https://kubernetes.slack.com/archives/C03BP9Z3CMA"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              #zarf-dev
-            </Link>
+            3. Find us on the following channels #zarf , #zarf-dev
           </Typography>
         </Box>
       </Box>
