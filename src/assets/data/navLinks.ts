@@ -8,10 +8,6 @@ export const namedLinks: SocialLinks = {
     url: '/',
     text: 'Product',
   },
-  installNow: {
-    url: '/install',
-    text: 'Install Now',
-  },
   enterpriseSupport: {
     text: 'Contact an Expert',
     url: '/enterprise-support',

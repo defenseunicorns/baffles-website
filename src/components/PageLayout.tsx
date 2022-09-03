@@ -3,7 +3,6 @@ import ZarfNav from './Sections/NavBar/ZarfNav';
 import getLocationPath from '../hooks/getLocationPath';
 import Footer from './Sections/Footer';
 import SiteHelmet from './SiteHelmet';
-import '../assets/css/blobz.min.css';
 import { Box } from '@mui/material';
 import '../assets/css/global.css';
 import { SeoProps } from './seo';
