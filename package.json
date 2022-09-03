@@ -13,7 +13,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "start": "npm run build && npm run serve",
-    "develop": "npm run clean && gatsby develop",
+    "dev": "npm run clean && gatsby develop",
     "typecheck": "tsc --noEmit",
     "preinstall": "npx npm-force-resolutions",
     "lint:fix": "npm run lint --fix",

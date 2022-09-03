@@ -8,10 +8,6 @@ export const namedLinks: SocialLinks = {
     url: '/',
     text: 'Product',
   },
-  slack: {
-    url: '/slack',
-    text: 'Slack',
-  },
   installNow: {
     url: '/install',
     text: 'Install Now',
@@ -19,12 +15,6 @@ export const namedLinks: SocialLinks = {
   enterpriseSupport: {
     text: 'Contact an Expert',
     url: '/enterprise-support',
-  },
-  zarfExamples: {
-    text: 'Examples',
-    target: '_blank',
-    rel: 'noopener noreferrer',
-    url: 'https://defenseunicorns.github.io/zarf/examples',
   },
   zarfDocs: {
     target: '_self',
@@ -70,8 +60,4 @@ export const namedLinks: SocialLinks = {
   },
 };
 
-export const navLinks: NavLink[] = [
-  namedLinks.product,
-  namedLinks.zarfExamples,
-  namedLinks.zarfDocs,
-];
+export const navLinks: NavLink[] = [namedLinks.product, namedLinks.zarfDocs];

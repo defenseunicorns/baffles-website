@@ -3,7 +3,6 @@ import React, { ReactElement } from 'react';
 import { Typography } from '@mui/material';
 import ButtonLink from '../ButtonLink';
 import { Box } from '@mui/system';
-import HeroBlob from './HeroBlob';
 
 export interface HeroProps {
   navLink?: NavLink;
@@ -74,7 +73,6 @@ function Hero(props: HeroProps): ReactElement {
         )}
         {props.rhsChild && props.rhsChild}
       </Box>
-      <HeroBlob />
     </>
   );
 }

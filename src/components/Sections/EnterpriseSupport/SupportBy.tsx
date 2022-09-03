@@ -1,7 +1,4 @@
-import BlobSm from '../../../assets/svg/maintained-by-sm-blob.svg';
 import { Box, Link, styled, Typography } from '@mui/material';
-import Blob from '../../../assets/svg/maintained-by-blob.svg';
-import { hideLarge, hideSmall } from '../../../utils/display';
 import { namedLinks } from '../../../assets/data/navLinks';
 import DuLogo from '../../../assets/png/full-du-logo.png';
 import React, { ReactElement } from 'react';
@@ -17,16 +14,6 @@ const MaintainerSection = styled(Box)`
   align-items: center;
   position: relative;
   overflow: hidden;
-` as typeof Box;
-
-const BlobWrapper = styled(Box)`
-  --time: 40s;
-  z-index: -1;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
 ` as typeof Box;
 
 function SupportBy({ tagLine }: MaintainedByProps): ReactElement {
@@ -62,12 +49,6 @@ function SupportBy({ tagLine }: MaintainedByProps): ReactElement {
           />
         </Link>
       </Box>
-      <BlobWrapper className="tk-blob-skew tk-blob-scale" sx={hideSmall}>
-        <Blob width="100%" height="100%" preserveAspectRatio="none" />
-      </BlobWrapper>
-      <BlobWrapper className="tk-blob-skew tk-blob-scale" sx={hideLarge}>
-        <BlobSm width="100%" height="100%" preserveAspectRatio="none" />
-      </BlobWrapper>
     </MaintainerSection>
   );
 }
