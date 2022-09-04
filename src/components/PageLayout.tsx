@@ -28,7 +28,7 @@ function PageLayout(props: PropsWithChildren<PageLayoutProps>): ReactElement {
         }}
       >
         {props.children}
-        <Footer pathname={pathUrl} />
+        <Footer />
       </Box>
     </>
   );
