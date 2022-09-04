@@ -1,5 +1,5 @@
 import React, { ReactElement, PropsWithChildren } from 'react';
-import ZarfNav from './Sections/NavBar/ZarfNav';
+import Nav from './Sections/NavBar/Nav';
 import getLocationPath from '../hooks/getLocationPath';
 import Footer from './Sections/Footer';
 import SiteHelmet from './SiteHelmet';
@@ -17,7 +17,7 @@ function PageLayout(props: PropsWithChildren<PageLayoutProps>): ReactElement {
   return (
     <>
       <SiteHelmet {...props.seoProps} route={pathname} />
-      <ZarfNav pathname={pathUrl} />
+      <Nav pathname={pathUrl} />
       <Box
         component="main"
         sx={{

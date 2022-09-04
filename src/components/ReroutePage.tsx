@@ -1,5 +1,4 @@
-import ComingSoonBG from '../assets/png/coming-soon-bg.png';
-import ZarfBubbles from '../assets/png/zarf-bubbles.png';
+import ComingSoonBG from '../assets/png/baffles-background.png';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import React, { ReactElement } from 'react';
@@ -81,14 +80,6 @@ function ReroutePage(props: ReroutePageProps): ReactElement {
           </Typography>
           <ButtonLink url={props.buttonLink} text={props.buttonText} />
         </Box>
-        <Box
-          component="img"
-          src={ZarfBubbles}
-          sx={{
-            height: { xs: '240px', md: '320px' },
-            width: { xs: '240px', md: '320px' },
-          }}
-        />
       </Container>
     </ReroutePageBackdrop>
   );
