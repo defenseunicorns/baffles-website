@@ -3,7 +3,7 @@ on:
   pull_request:
     branches: [develop, main]
 env:
-  REPO_NAME: zarf-website-${{ github.event.pull_request.node_id }}
+  REPO_NAME: baffles-website-${{ github.event.pull_request.node_id }}
 jobs:
   create-page-host:
     runs-on: ubuntu-latest

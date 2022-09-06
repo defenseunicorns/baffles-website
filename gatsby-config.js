@@ -17,11 +17,11 @@ const gatsbyRequiredRules = path.join(
 
 module.exports = {
   siteMetadata: {
-    title: `Zarf`,
+    title: `Baffles`,
     siteUrl: SITE_URL,
     image: `/img/social-preview.png`,
-    description: `DevSecOps for Airgap`,
-    keywords: `DevSecOps, DevOps, Airgap, Kubernetes, Cloud Native, kind, k3s, k3d`,
+    description: `the Airgap Appstore`,
+    keywords: `DevSecOps, DevOps, Airgap`,
   },
   pathPrefix: PATH_PREFIX,
   plugins: [
@@ -33,7 +33,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: `Zarf`,
+        name: `Baffles`,
         start_url: `/*`,
         background_color: `#000000`,
         theme_color_in_head: false,

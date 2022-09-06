@@ -12,11 +12,11 @@ export const namedLinks: SocialLinks = {
     text: 'Contact an Expert',
     url: '/enterprise-support',
   },
-  zarfDocs: {
+  bafflesDocs: {
     target: '_self',
     text: 'Documents',
     rel: 'noopener noreferrer',
-    url: 'https://docs.zarf.dev/docs/zarf-overview',
+    url: 'https://docs.baffles.dev/docs/baffles-overview',
   },
   github: {
     text: 'Github',
@@ -24,36 +24,12 @@ export const namedLinks: SocialLinks = {
     rel: 'noopener noreferrer',
     url: 'https://github.com/defenseunicorns/baffles',
   },
-  startContributing: {
-    target: '_blank',
-    rel: 'noopener noreferrer',
-    text: 'view contributor guide',
-    url: 'https://docs.zarf.dev/docs/developer-guide/contributor-guide',
-  },
   defenseUnicorns: {
     target: '_blank',
     text: 'Defense Unicorns',
     rel: 'noopener noreferrer',
     url: 'https://defenseunicorns.com',
   },
-  gettingStarted: {
-    target: '_blank',
-    text: 'Getting Started',
-    rel: 'noopener noreferrer',
-    url: 'https://docs.zarf.dev/docs/getting-started',
-  },
-  userGuide: {
-    target: '_blank',
-    text: 'User Guide',
-    rel: 'noopener noreferrer',
-    url: 'https://docs.zarf.dev/docs/user-guide/the-zarf-cli/the-zarf-cli',
-  },
-  homebrew: {
-    text: 'Brew',
-    target: '_blank',
-    url: 'https://brew.sh/',
-    rel: 'noopener noreferrer',
-  },
 };
 
-export const navLinks: NavLink[] = [namedLinks.product, namedLinks.zarfDocs];
+export const navLinks: NavLink[] = [namedLinks.product, namedLinks.bafflesDocs];

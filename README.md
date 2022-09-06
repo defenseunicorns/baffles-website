@@ -1,38 +1,26 @@
 <p align="center">
-  <a href="https://github.com/defenseunicorns/zarf-website">
-    <img alt="Gatsby" src="./src/assets/svg/zarf-logo.svg" width="150" />
+  <a href="https://github.com/defenseunicorns/baffles-website">
+    <img alt="Gatsby" src="./src/assets/svg/baffles-logo.svg" width="150" />
   </a>
 </p>
 <h1 align="center">
-  Zarf Website Contributors Guide
+  Baffles Website Contributors Guide
 </h1>
 
 ## Currently Maintained by [Defense Unicorns](https://defenseunicorns.com)
 
-## 👀 Looking for Zarf?
+## 👀 Looking for Baffles?
 
-- [Zarf Website](https://zarf.dev)
-- [Zarf Repo](https://github.com/defenseunicorns/Zarf)
+- [Baffles Website](https://baffles.dev)
+- [Baffles Repo](https://github.com/defenseunicorns/Baffles)
 
 ## 📚 Resources
 
-- [Staging](https://defenseunicorns.github.io/zarf-website-staging/)
-- [Project Board](https://github.com/orgs/defenseunicorns/projects/4)
-- [Figma Design](https://www.figma.com/file/FVxDm72mPiUTKmAD44ixmX/MUI-for-Figma-v5.4.0---Material-UI?node-id=8763%3A73842)
+- [Staging](https://defenseunicorns.github.io/baffles-website-staging/)
 - [Forking](./docs/forking.md)
 - [Gatsby](./docs/gatsby.md)
 - [Material UI](https://v4.mui.com/getting-started/installation/)
 - [Material UI System](https://mui.com/system/basics/)
-
----
-
-## 👩‍🎨 Design Contacts
-
-- [Madeline Fortner](https://github.com/Madeline-UX)
-
-## 👩‍💻 Developer Contacts
-
-- [Mike Winberry](https://github.com/mike-winberry)
 
 ---
 
@@ -47,7 +35,7 @@
 ### 🚜 Set up Dev Environment
 
 1. Install [Node.js LTS](https://nodejs.org/en/download/) or use [nvm](https://github.com/nvm-sh/nvm)
-2. [Clone](https://github.com/defenseunicorns/zarf-website) (🦄 Unicorns) or [Fork](docs/forking.md) (🐙 Contributors)
+2. [Clone](https://github.com/defenseunicorns/baffles-website) (🦄 Unicorns) or [Fork](docs/forking.md) (🐙 Contributors)
 3. Install dependencies w/ `npm ci`
 4. Run the local dev server w/ `npm run develop`
 

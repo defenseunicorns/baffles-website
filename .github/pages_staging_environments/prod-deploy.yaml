@@ -4,7 +4,7 @@ on:
     branches:
       - main
 env:
-  REPO_NAME: zarf-website-prod
+  REPO_NAME: baffles-website-prod
 
 jobs:
   create-page-host:

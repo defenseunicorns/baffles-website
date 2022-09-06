@@ -7,7 +7,7 @@ type Meta = React.DetailedHTMLProps<
   HTMLMetaElement
 >[];
 
-const DEFAULT_TWITTER_IMAGE = 'https://zarf.dev/img/social-preview.png';
+const DEFAULT_TWITTER_IMAGE = 'https://baffles.dev/img/social-preview.png';
 
 export interface SeoProps {
   description?: string;

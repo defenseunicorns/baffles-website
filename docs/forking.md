@@ -1,17 +1,15 @@
 <p align="center">
-  <a href="https://github.com/defenseunicorns/zarf-website">
-    <img alt="Gatsby" src="../src/assets/svg/zarf-dark-outline.svg" width="150" />
-  </a>
+  <a href="https://github.com/defenseunicorns/baffles-website"></a>
 </p>
 <h1 align="center">
   Forking Guide
 </h1>
 
-The zarf website was intentionally set up to allow for contributors and other users to easily fork and setup their own working environment within their own account or organization. [How to fork a repo.](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
+The Baffles website was intentionally set up to allow for contributors and other users to easily fork and setup their own working environment within their own account or organization. [How to fork a repo.](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
 
 ### 🪜 Steps
 
-- Fork the zarf-website repository.
+- Fork the baffles-website repository.
 - Add the required [secrets](#secrets).
 - Enable actions on the forked repository.
   - This is required to pass PR checks when opening a PR against the base repo from a forked branch.
@@ -22,7 +20,7 @@ The zarf website was intentionally set up to allow for contributors and other us
 
 ## 🕵️‍♀️ Secrets
 
-In order to run the github actions for the Zarf website a repo owner will need to add 1-2 secrets to the forked repo. [Adding a secret.](https://docs.github.com/en/actions/security-guides/encrypted-secrets)
+In order to run the github actions for the Baffles website a repo owner will need to add 1-2 secrets to the forked repo. [Adding a secret.](https://docs.github.com/en/actions/security-guides/encrypted-secrets)
 
 - ### ACCESS_TOKEN (required)
   - [Creating access token.](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)

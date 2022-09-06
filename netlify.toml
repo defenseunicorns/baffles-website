@@ -1,11 +1,11 @@
 [context.deploy-preview]
   command = "npm run build:staging"
-  SITE_URL = "https://deploy-preview.zarf.dev"
+  SITE_URL = "https://deploy-preview.baffles.dev"
   GATSBY_GH_TOKEN = ''
   TAG_MANAGER = "GTM-N74GD57"
 
 [context.branch-deploy]
   command = "npm run build:staging"
-  SITE_URL = "https://develop.zarf.dev"
+  SITE_URL = "https://develop.baffles.dev"
   GATSBY_GH_TOKEN = ''
   TAG_MANAGER = "GTM-N74GD57"

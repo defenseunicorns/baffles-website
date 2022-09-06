@@ -4,7 +4,7 @@ on:
     branches:
       - develop
 env:
-  REPO_NAME: zarf-website-staging
+  REPO_NAME: baffles-website-staging
 
 jobs:
   create-page-host:
