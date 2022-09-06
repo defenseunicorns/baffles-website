@@ -65,8 +65,8 @@ function Hero(props: HeroProps): ReactElement {
             component="img"
             src={props.image}
             sx={{
-              width: { xs: '360px', md: '500px' },
-              height: { xs: '302.4px', md: '439.23px' },
+              width: { xs: '641px', md: '641px' },
+              height: { xs: '424px', md: '424px' },
             }}
             loading="lazy"
           />
