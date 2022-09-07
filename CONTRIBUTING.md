@@ -10,11 +10,11 @@ Your contributions are welcome!
 
 This project uses the following conventions, work not following these conventions won't be accepted:
 
-* [Semantic Versioning](https://semver.org/)
-* [Keep a Changelog](https://keepachangelog.com/)
-* [Conventional Commits](https://www.conventionalcommits.org/)
+- [Semantic Versioning](https://semver.org/)
+- [Keep a Changelog](https://keepachangelog.com/)
+- [Conventional Commits](https://www.conventionalcommits.org/)
 
 ### Labels
 
-* `needs-triage` - issues that need triage, maintainers will review and re-label as appropriate
-* `*` - we try to keep labels clear and easy to understand
+- `needs-triage` - issues that need triage, maintainers will review and re-label as appropriate
+- `*` - we try to keep labels clear and easy to understand
