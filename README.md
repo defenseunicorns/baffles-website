@@ -26,6 +26,8 @@
 
 ## 🚀 Start Developing.
 
+Review [Contributing Guide](./CONTRIBUTING.md)
+
 ### 📝 Notes
 
 - **_All commits must be [signed](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits)._**
