@@ -2,7 +2,7 @@ import { FormQuery } from './types';
 import { stringify } from 'query-string';
 
 const FORM_URL =
-  'https://docs.google.com/forms/d/e/1FAIpQLSdFX8mXtP7IRuy78xR6nKdGMctP6TaGF6iUjLa66JYQgoH4zA/formResponse?';
+  'https://docs.google.com/forms/u/0/d/e/1FAIpQLSfbhLRoEGgd6VIQOOl8b-uUAjdXiqfsFVPAZgFf1yZlNRmliw/formResponse?';
 
 export function clearQuery(): FormQuery {
   return {
@@ -15,11 +15,11 @@ export function clearQuery(): FormQuery {
 export function createQueryString(query: FormQuery): string {
   return stringify({
     // G-form name field id
-    'entry.1820878755': query.name,
+    'entry.1414165667': query.name,
     // G-form email field id
-    'entry.1794613224': query.email,
+    'entry.201202286': query.email,
     // G-form organization field id
-    'entry.1448025861': query.organization,
+    'entry.435380398': query.organization,
   });
 }
 
