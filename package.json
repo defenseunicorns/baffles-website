@@ -65,7 +65,7 @@
     "typescript": "4.7.4"
   },
   "resolutions": {
-    "ws": "7.5.9",
+    "ws": "8.8.1",
     "immer": "9.0.6",
     "ansi-html": "0.0.9",
     "nth-check": "2.0.1",
