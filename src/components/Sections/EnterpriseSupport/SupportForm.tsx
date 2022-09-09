@@ -47,7 +47,7 @@ function SupportForm(): ReactElement {
   const [modalText, setModalText] = React.useState<string>();
 
   const handleSubmit = React.useCallback(
-    async (event): Promise<void> => {
+    async (event: { preventDefault: () => void }): Promise<void> => {
       event.preventDefault();
       await postEnterpriseSupportForm(query, handleSuccess, handleFailure);
     },
