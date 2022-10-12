@@ -10,7 +10,7 @@ interface HeroPropsData {
 export const heroProps: HeroPropsData = {
   home: {
     header: 'The Airgap Appstore',
-    body: 'A free open source tool that enables enables the warfighter to delightfully experience Any App, Anywhere in ways that improve their quality of life and mission effectiveness.',
+    body: 'A free open source tool that enables the warfighter to use Any App, Anywhere in ways that improve their quality of life and mission effectiveness.',
     image: BafflesAppstore,
   },
   support: {
