@@ -30,9 +30,7 @@ function MaintainedBy(props: MaintainedByProps): ReactElement {
           }}
         />
       </Link>
-      <Typography variant="body1">
-        For enterprise package support & pricing
-      </Typography>
+      <Typography variant="body1">Get in touch</Typography>
       <Box marginX={'auto'} marginTop={'16px'}>
         <ButtonLink color="secondary" {...namedLinks.enterpriseSupport} />
       </Box>

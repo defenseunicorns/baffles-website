@@ -26,7 +26,7 @@ const modalStyle = {
 const FormCard = styled(Box)`
   display: flex;
   flex-direction: column;
-  justify-items: space-evenly;
+  justify-items: center;
   padding: 40px 32px;
   gap: 16px;
   background: linear-gradient(
@@ -35,8 +35,8 @@ const FormCard = styled(Box)`
       rgba(255, 255, 255, 0.07) 100%
     ),
     #10184c;
-  box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.14), 0px 3px 14px rgba(0, 0, 0, 0.12),
-    0px 5px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.14), 0 3px 14px rgba(0, 0, 0, 0.12),
+    0 5px 5px rgba(0, 0, 0, 0.2);
   border-radius: 8px;
 ` as typeof Box;
 
@@ -110,7 +110,7 @@ function SupportForm(): ReactElement {
           </Button>
         </Box>
       </Modal>
-      <Typography variant="h3">Get Pricing</Typography>
+      <Typography variant="h3">Get In Touch!</Typography>
       <Typography variant="body2" color="text.secondary">
         Provide us with your information and we will contact you with more
         information shortly.
