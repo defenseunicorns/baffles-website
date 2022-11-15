@@ -22,7 +22,7 @@ export const namedLinks: SocialLinks = {
     text: 'Github',
     target: '_blank',
     rel: 'noopener noreferrer',
-    url: 'https://github.com/defenseunicorns/baffles',
+    url: 'https://github.com/defenseunicorns/baffles-ui',
   },
   defenseUnicorns: {
     target: '_blank',
